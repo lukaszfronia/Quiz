@@ -3,6 +3,7 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "target": "ES2015",
+    "lib": ["ES2017", "DOM", "ScriptHost"],
     "module": "ES2015"
   }
 }
