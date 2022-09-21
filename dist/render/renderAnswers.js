@@ -4,7 +4,7 @@ export const currentAnswer = (currentQuestion, i) => {
     answerBoxDescription.textContent = quizData[currentQuestion].answer[i].text;
 };
 export const renderAnswers = (currentQuestion) => {
-    for (let i = 0; i < quizData[currentQuestion].answer.length - 1; i++) {
+    for (let i = 0; i < quizData[currentQuestion].answer.length; i++) {
         currentAnswer(currentQuestion, i);
     }
 };
