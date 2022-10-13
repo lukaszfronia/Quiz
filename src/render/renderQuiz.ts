@@ -9,7 +9,7 @@ export const renderQuiz = (
   renderQuestion(currentQuestion);
 
   const pElement: HTMLElement = document.createElement("p");
-  pElement.classList.add("answer-description");
+  pElement.classList.add("box-answer-description");
   pElement.classList.add(`answer-${i + 1}`);
   answer.appendChild(pElement);
 
