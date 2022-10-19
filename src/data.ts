@@ -134,4 +134,92 @@ export const quizData: Quiz[] = [
       },
     ],
   },
+  {
+    question: "How does Java Script store dates in objects of Date type?",
+
+    answer: [
+      {
+        text: "The number of days since January 1st, 1900",
+        correct: false,
+      },
+      {
+        text: "The number of seconds since January 1st, 1970",
+        correct: false,
+      },
+      {
+        text: "The number of milliseconds since January 1st, 1970",
+        correct: true,
+      },
+      {
+        text: "The number of picoseconds since January 1st, 1970",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Which attribute needs to be changed to make elements invisible?",
+
+    answer: [
+      {
+        text: "visibility",
+        correct: false,
+      },
+      {
+        text: "visible",
+        correct: false,
+      },
+      {
+        text: "invisibility",
+        correct: true,
+      },
+      {
+        text: "invisible",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Which of the ways below is incorrect of instantiating a date?",
+
+    answer: [
+      {
+        text: "new Date(dateString)",
+        correct: false,
+      },
+      {
+        text: "new Date()",
+        correct: true,
+      },
+      {
+        text: "new Date(seconds)",
+        correct: false,
+      },
+      {
+        text: "new Date(year, month, day, hours, minutes, seconds, milliseconds)",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "JavaScript is a ___ -side programming language.",
+
+    answer: [
+      {
+        text: "Client",
+        correct: false,
+      },
+      {
+        text: "Server",
+        correct: false,
+      },
+      {
+        text: "None",
+        correct: false,
+      },
+      {
+        text: "Both",
+        correct: true,
+      },
+    ],
+  },
 ];
